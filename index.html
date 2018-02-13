@@ -1,4 +1,3 @@
-Hello World
 <html>
 <head>
   <script type="text/javascript">
@@ -8,7 +7,7 @@ Hello World
     var state = str.substring(lastIndex + 1); 
     var firstIndex = str.indexOf('=');
     var code = str.substring(firstIndex + 1); 
-    window.location = "OauthWithSafari://?code=" + code + "&state=" + state;
+    window.location = "InstaPix://?code=" + code + "&state=" + state;
   </script>
 </head>
 <body>redirect_uri to capture authorization code</body>
