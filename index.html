@@ -91,22 +91,18 @@ a {
     border: 1px solid #fff;
     border-radius: 50%;
     display: inline-block;
-}
-.avatar img {
-    border-radius: 50%;
-    display: block;
-}
-.circular--portrait {
   position: relative;
   width: 200px;
   height: 200px;
   overflow: hidden;
-  border-radius: 50%;
+  
 }
-.circular--portrait img {
-  width: 100%;
+.avatar img {
+     width: 100%;
   height: auto;
-}  
+    display: block;
+}
+ 
 h1 {
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -169,9 +165,9 @@ h1 {
 <div class="outer">
 <div class="info" itemscope itemtype="http://schema.org/Person">
     <div class="avatar">
-      <div class="circular--portrait">
+      
         <img itemprop="image" alt="photo of Caroline Cruz" src="CaroCruzavatar.jpg">
-         </div>
+        
     </div>
     <h1 itemprop="name">Caroline Cruz</h1>
     <ul itemprop="description" class="subtitle">
